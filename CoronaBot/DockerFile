@@ -1,0 +1,10 @@
+FROM python:3
+
+WORKDIR usr/src/coronabot
+
+COPY . .
+
+RUN pip install pipenv
+RUN pipenv install
+
+CMD ["pipenv", "run", "start"]
