@@ -1,0 +1,13 @@
+:root {
+  --code-background: hsl(210, 29%, 24%);
+  --code-color: hsl(184, 9%, 96%);
+}
+
+.command {
+  width: auto;
+  padding: 4px;
+
+  font-family: monospace;
+  background-color: var(--code-background);
+  color: var(--code-color);
+}

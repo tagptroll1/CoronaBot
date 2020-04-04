@@ -1,0 +1,9 @@
+.command-list {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+
+  width: fit-content;
+  list-style: none;
+
+}
